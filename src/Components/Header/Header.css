@@ -1,0 +1,16 @@
+.header-container {
+    height:800px;
+   position:fixed;
+   background-image:url('../../assets/bg.png') ;
+    background-size: cover;
+}
+.header-container::after{
+    height:800px;
+    content:' ';
+    position: fixed;
+    top: 0;
+    width: 30%;
+    right: 0;
+    background-color: #3A4256;
+    z-index: -50;
+}
