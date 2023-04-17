@@ -4,7 +4,7 @@ import HeaderMain from '../HeaderMain/HeaderMain';
 import './Header.css';
 import BuisnessInfo from '../Buisnessinfo/BuisnessInfo';
 import bgImage from '../../../assets/bg.png';
-import Services from '../Services/Services';
+
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             <TopBar></TopBar>
             <HeaderMain></HeaderMain>
             <BuisnessInfo></BuisnessInfo>
-            <Services></Services>
+            
             
             
             
