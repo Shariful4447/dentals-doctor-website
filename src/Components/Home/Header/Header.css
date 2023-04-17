@@ -1,0 +1,31 @@
+.header-container {
+    height: 720px;
+    background: linear-gradient(
+        to left,
+        #3A4256 0%,
+        #3A4256 30%,
+        white 30%,
+        white 40%
+    );
+    
+    
+    
+    
+    /* position:relative;
+    background-image:url('../../../assets/bg.png') ;
+    background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center; */
+
+    
+}
+
+/* .header-container img{
+    
+    height:800px;
+    width:60%;
+}
+    */
+
