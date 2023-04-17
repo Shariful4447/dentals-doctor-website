@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoCard from '../InfoCard/InfoCard';
 
-import { faClock, faMap, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 const infosData=[
     {title :'opening hours',
     description: 'We are Open 7 Days',
@@ -11,7 +11,7 @@ const infosData=[
     {
         title :'Visit our location',
         description: 'Vettersstrase, 09126, Chemnitz, Germany',
-        icon: faMap,
+        icon: faLocationDot,
         background:'dark'
     },
     {
