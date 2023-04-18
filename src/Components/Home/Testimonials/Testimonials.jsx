@@ -24,7 +24,7 @@ const Testimonials = () => {
             name:'Winson Henry',
             img: people3,
             queto:'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            area:'Gorgia'
+            area:'gorgia'
 
             }
         ]
