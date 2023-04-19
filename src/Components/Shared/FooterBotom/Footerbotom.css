@@ -2,8 +2,10 @@
     background-image: url('../../../assets/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: fixed;
+    
+    
     background-position: center center;
+ 
+    
 
 }

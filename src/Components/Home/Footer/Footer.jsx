@@ -14,15 +14,15 @@ const Footer = () => {
                         <h1 className="text-center mb-4 text-white">Contact Us</h1>
                         <Form>
                             <Form.Group controlId="formName">
-                            <Form.Label style={{color:'white'}}>Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter your name" />
                             </Form.Group>
+                            <br />
                             <Form.Group controlId="formEmail">
-                            <Form.Label style={{color:'white'}}>Email address</Form.Label>
                             <Form.Control type="email" placeholder="Enter your email" />
                             </Form.Group>
+                            <br />
                             <Form.Group controlId="formMessage">
-                            <Form.Label style={{color:'white'}}>Message</Form.Label>
+                                
                             <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
                             </Form.Group>
                             <Button  style={{position: 'absolute', width: '120px', height: '48px', left: '659px'}} className='submit-button' variant="primary" type="submit">
@@ -31,7 +31,11 @@ const Footer = () => {
                         </Form>
                         </Col>
                     </Row>
-                </Container>
+            </Container>
+
+            
+
+
 
  </section>
 

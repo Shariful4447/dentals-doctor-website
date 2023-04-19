@@ -7,13 +7,16 @@ import Testimonials from './Testimonials/Testimonials';
 import Doctors from './Doctors/Doctors'
 import Blogs from './Blogs/Blogs';
 import Footer from './Footer/Footer';
-import FooterBottom from './FooterBotom/FooterBotom';
+
+
+
+
 
 
 const Home = () => {
     return (
         <div>
-          <Header></Header>  
+          <Header></Header>
           <Services></Services>
           <FeaturedService></FeaturedService>
           <MakeAppointment></MakeAppointment>
@@ -21,7 +24,7 @@ const Home = () => {
           <Doctors></Doctors>
           <Blogs></Blogs>
           <Footer></Footer>
-          <FooterBottom></FooterBottom>
+          
           
         </div>
     );

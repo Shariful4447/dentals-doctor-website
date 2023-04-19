@@ -1,14 +1,13 @@
-.header-container {
+.bg {
     height: 720px;
-    background: linear-gradient(
-        to left,
-        #3A4256 0%,
-        #3A4256 30%,
-        white 30%,
-        white 40%
-    );
-    position: relative;
-    
+    width: 30%;
+    background: #3A4256 ;
+
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+       
     
     
     
@@ -21,6 +20,15 @@
     background-position: center; */
 
     
+}
+
+.bgChair{
+
+    background-image:url('../../../assets/bg.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
 }
 
 /* .header-container img{
