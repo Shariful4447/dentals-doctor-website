@@ -1,17 +1,26 @@
 import React from 'react';
 import chair from '../../../assets/chair.png';
+import Button from 'react-bootstrap/Button';
+import classes from '../../Home/Header/Header.module.css'
+import './AppointmentHeader.css'
+import { Row } from 'react-bootstrap';
+
 
 const AppointmentHeader = () => {
     return (
-        <main style={{height: '600px',padding:'10px'}} className='row d-flex align-items-center'>
-            <div className="col-md-4 offset-md-1">
-                <h1 style={{color: '#3A4256' }}>Your New Journey <br/> Starts Here...</h1>
-                <p>“Medicine aims to prevent disease plus prolong life,Medicine is to eliminate the need of a physician.”William Mayo.</p>
-                <Button variant="success">Take Appointment</Button>
+        <main >
+            <div className={classes.bgChair}>
+                <Row className='Content' >
+                    <div className="col-md-8 offset-md-1">
+                        <h1 style={{color: '#3A4256' }}>Appointment : </h1>
+                    
 
-            </div>
-            <div className="col-md-6">
-                <img style={{height:'400px', width:'600px'}} src={chair} alt=""/>
+                    </div>
+                    <div className="col-md-4 main-image">
+                        <img src={chair} alt=""/>
+                    </div>
+                </Row>
+
             </div>
 
         </main>

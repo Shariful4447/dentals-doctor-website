@@ -1,12 +1,13 @@
 import React from 'react';
-import Footer from '../../Home/Footer/Footer';
+import AppointmentHeader from '../Appointmentheader/AppointmentHeader';
+
 
 
 
 const Appointment = () => {
     return (
         <div>
-            <Footer></Footer>
+          <AppointmentHeader></AppointmentHeader>  
           
         </div>
     );
