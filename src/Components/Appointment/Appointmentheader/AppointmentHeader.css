@@ -6,3 +6,11 @@
     margin-left: 50px;
    
 }
+.bgChair{
+
+    background-image:url('../../../assets/bg.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
