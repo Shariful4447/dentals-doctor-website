@@ -1,25 +1,8 @@
-.main-image {
-    height: 720px;
-    width: 30%;
-    
-    position: relative;
-    right: 0px;
-    top: 0px;
-       
-    
-    
 
+.calender{
     
-}
-.main-image img{
-    height: 400px;
-    width: 600px;
-    
-    margin-left: 800px;
-    margin-top: 100px;
-}
-
-.Content{
-    margin-top: 100px;
-
+    width: 450px;
+    height: 350px;
+    margin-left: 50px;
+   
 }
