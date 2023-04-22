@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AppointmentHeader from '../Appointmentheader/AppointmentHeader';
+import BookAppointment from '../BookAppointment/BookAppointment';
 
 
 
@@ -12,6 +13,7 @@ const Appointment = () => {
     return (
         <div>
           <AppointmentHeader></AppointmentHeader>  
+          <BookAppointment date={selectedDate}></BookAppointment>
           
         </div>
     );

@@ -9,10 +9,8 @@ import 'react-calendar/dist/Calendar.css';
 
 
 
-const AppointmentHeader = () => {
-    const handleChange= date => {
-        console.log('date Changed', date);
-    }
+const AppointmentHeader = ({handleChange}) => {
+    
     return (
         <main>
             
